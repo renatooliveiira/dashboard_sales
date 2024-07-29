@@ -11,7 +11,7 @@ Este projeto consiste na criação de um Dashboard de Vendas utilizando o Power 
 Acesse o dashboard completo [neste link](https://app.powerbi.com/view?r=eyJrIjoiNWQyY2JlYTMtOWQ4Mi00NTM5LWIxZDMtMGI5OGM2YTAzZDYwIiwidCI6IjE4ZTg1MjMyLTg4YWMtNDI2MC1iYTYzLTk3M2MzMTgxM2NmOSJ9)
 
 
-### Dados Utilizados:
+## Dados Utilizados:
 
 * `Base Devoluções`: Informações detalhadas sobre produtos devolvidos, incluindo motivos, datas e quantidades.
 * `Base de Vendas (2020, 2021, 2022)`: Registros de todas as vendas realizadas nos anos de 2020, 2021 e 2022, permitindo uma análise temporal das tendências de vendas.
@@ -20,7 +20,7 @@ Acesse o dashboard completo [neste link](https://app.powerbi.com/view?r=eyJrIjoi
 * `Cadastro de Lojas`: Detalhes sobre as lojas físicas da empresa, incluindo localização, tamanho e desempenho.
 * `Cadastro de Produtos`: Catálogo de produtos com descrições, categorias e preços.
 
-### Estrutura do Dashboard:
+## Estrutura do Dashboard:
 
 **Aba Geral:**
 
@@ -53,7 +53,7 @@ Acesse o dashboard completo [neste link](https://app.powerbi.com/view?r=eyJrIjoi
 * `% Devoluções por Fornecedor`: Análise das devoluções por fornecedor.
 * `Filtrar por Categoria`: Opção de filtrar as devoluções por categoria de produto.
 
-### Preparação dos Dados
+## Preparação dos Dados
 
 Para a preparação dos dados, inicialmente realizei uma análise preliminar utilizando o Excel para explorar e entender as informações. Em seguida, utilizei o Power Query para conduzir o processo de ETL (Extração, Transformação e Carga), e apliquei DAX no Power BI para realizar uma análise exploratória. Este processo incluiu a limpeza, transformação, modelagem e carregamento dos dados, garantindo a integridade e a qualidade dos mesmos para a criação de insights precisos e relevantes.
 
@@ -87,7 +87,7 @@ dCalendario = CALENDAR(
 Do autor:
 - Relacionamento entre as tabelas.
 
-### Análise Exploratória
+## Análise Exploratória
 
 Analisando as informações do `Faturamento Total`, `Lucro Total`, `Total Vendas`e `Margem`VS `Ano Anterior` foi encontrado um problema ao marcar **2020** na caixa interativa do dashboard de **Ano selecionado**.
 
@@ -121,7 +121,7 @@ Por fim, utilizei um filtro para analisar apenas as `Data Vigente` comparando o 
 ![img](img/05.png)
 
 
-### Desenvolvimento do projeto
+## Desenvolvimento do projeto
 
 `Algumas medidas utilizadas ao longo do projeto`
 
@@ -216,7 +216,7 @@ DIVIDE(
     [Total Vendas]
 )
 ```
-### Design
+## Design
 
 Após a criação das medidas, passei para a parte de criação dos visuais e storytelling.
 
@@ -236,7 +236,7 @@ Após a criação das medidas, passei para a parte de criação dos visuais e st
 
 Finalizado o dashboard, o mesmo foi analisado e validado quanto aos números, visuais e interatividade.Para implantação, utilizei o Power BI Desktop para publicação e realizei as demais configurações via Power BI Service.
 
-### Insights
+## Insights
 
 **Crescimento Consistente**
 
@@ -271,7 +271,7 @@ Finalizado o dashboard, o mesmo foi analisado e validado quanto aos números, vi
 
 - Houve picos de faturamento nos meses finais do ano, possivelmente devido a promoções sazonais e eventos de compras, como a Black Friday.
 
-### Conclusões
+## Conclusões
 
 **Investimento em Marketing Digital:**
 

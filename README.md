@@ -10,6 +10,7 @@ Este projeto consiste na criação de um Dashboard de Vendas utilizando o Power 
 
 Acesse o dashboard completo [neste link](https://app.powerbi.com/view?r=eyJrIjoiNWQyY2JlYTMtOWQ4Mi00NTM5LWIxZDMtMGI5OGM2YTAzZDYwIiwidCI6IjE4ZTg1MjMyLTg4YWMtNDI2MC1iYTYzLTk3M2MzMTgxM2NmOSJ9)
 
+![dashboard](https://github.com/user-attachments/assets/7d40620d-e0e7-4e0a-b5d3-cb7b8d13b1db)
 
 ## Dados Utilizados:
 
